@@ -1,0 +1,32 @@
+.widget {
+  position: relative;
+  display: inline-block;
+  box-sizing: content-box;
+  width: 200px;
+  height: 170px;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+
+  .icon-row {
+    display: flex;
+    justify-content: end;
+    .icon {
+      color: #FFA500;
+    }
+  }
+
+  .info {
+    font-weight: 300;
+    color: #b8b8b8;
+    margin-bottom: 12px;
+    .degree {
+      font-size: 3rem;
+    }
+    .country {
+      font-size: 2rem;
+      line-height: 10px;
+      color: #cbcbcb;
+    }
+  }
+}

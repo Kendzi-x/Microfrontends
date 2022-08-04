@@ -1,0 +1,12 @@
+<header>
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a></li>
+    <li><a routerLink="/dms" routerLinkActive="active">Dms</a></li>
+  </ul>
+</header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<web-components-placeholder></web-components-placeholder>

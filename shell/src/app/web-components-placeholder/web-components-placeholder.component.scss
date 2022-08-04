@@ -1,0 +1,11 @@
+.wc-wrapper {
+  position: fixed;
+  top: 10%;
+  left: 5%;
+}
+
+@media(max-width: 1800px) {
+  .wc-wrapper {
+    visibility: hidden;
+  }
+}
