@@ -14,27 +14,21 @@ import { ModuleFederationToolsModule, WebComponentWrapperOptions } from '@angula
 })
 export class WebComponentsPlaceholderComponent {
 
-  // item: WebComponentWrapperOptions = {
-  //   type: 'module',
-  //   remoteEntry: 'http://localhost:4202/remoteEntry.js',
-  //   exposedModule: './web-components',
-  //   elementName: 'angular-element'
-  // };
   item: WebComponentWrapperOptions = {
-    type: 'manifest',
-    remoteName: 'webAng',
+    type: 'module',
+    remoteEntry: 'http://localhost:4202/remoteEntry.js',
     exposedModule: './web-components',
     elementName: 'angular-element'
   };
 
-  constructor() {
-    // setTimeout(() => {
-    //   this.item = {
-    //     type: 'manifest',
-    //     remoteName: 'webAng',
-    //     exposedModule: './web-components',
-    //     elementName: 'angular-element'
-    //   }
-    // }, 0);
-  }
+  /* Somehow type: 'manifest' doesn't work with 'mft-wc-wrapper'. */
+  // item: WebComponentWrapperOptions = {
+  //   type: 'manifest',
+  //   remoteName: 'webAng',
+  //   exposedModule: './web-components',
+  //   elementName: 'angular-element'
+  // };
+
+
+  constructor() {}
 }
