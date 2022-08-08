@@ -20,3 +20,9 @@ Have a particular look at the following files:
 - Start Shell (shell): ``ng serve``
 - Make sure ``remote``, ``web-ang`` and ``pgd`` are started before ``shell`` is loaded into the browser
 - Use the shell app at ``4200`` port and check hyperlinks in the header
+
+## Useful Links
+
+- https://www.youtube.com/watch?v=EGdbmj-kj88 - [English] 
+- https://www.youtube.com/watch?v=TNmc8sOldVU - [Russian]
+- https://www.angulararchitects.io/en/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/ - whole series (10 parts)
