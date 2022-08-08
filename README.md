@@ -14,8 +14,9 @@ Have a particular look at the following files:
 ## Installation and Usage
 
 - Install packages: ``npm i`` in every subfolder
-- Start Micro Frontend (remote): ``ng serve``
-- Start Angilar Web Component (web-ang): ``ng serve``
+- Start Micro Frontend (/remote): ``ng serve``
+- Start Angilar Web Component (/web-ang): ``ng serve``
+- Start React app (/pgd): ``npm run start``
 - Start Shell (shell): ``ng serve``
-- Make sure ``remote`` and ``web-ang`` are started before ``shell`` is loaded into the browser
-- Use the shell app at ``4200`` port and check hyperlink ``dms`` in the header to load `remote`
+- Make sure ``remote``, ``web-ang`` and ``pgd`` are started before ``shell`` is loaded into the browser
+- Use the shell app at ``4200`` port and check hyperlinks in the header
