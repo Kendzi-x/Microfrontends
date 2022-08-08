@@ -1,6 +1,7 @@
 import { loadRemoteModule } from '@angular-architects/module-federation';
 import { Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ReactWrapperComponent } from './react-wrapper/react-wrapper.component';
 
 export const APP_ROUTES: Routes = [
   {
@@ -20,5 +21,9 @@ export const APP_ROUTES: Routes = [
       exposedModule: './Module'
     })
       .then(m => m.DmsModule)
+  },
+  {
+    path: 'react',
+    component: ReactWrapperComponent,
   },
 ];
